@@ -1,165 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UTHM</title>
-    <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: column;
-            /* background-color: gray; */
-            height: 100vh;
-            width: 100%;
-        }
-
-        .logo {
-            display: flex;
-            flex-direction: row;
-            /* background-color: aqua; */
-            min-height: 100px;
-            width: 100%;
-            position: relative;
-            align-items: center;
-            justify-content: center;
-            margin-top: 10px;
-        }
-
-        .navigation {
-            display: flex;
-            flex-direction: row;
-            /* background-color: aqua; */
-            min-height: 50px;
-            margin-top: 10px;
-            justify-content: space-between;
-            /* align-content: center; */
-            align-items: center;
-            
-        }
-
-        .navigation a {
-            text-decoration: none;
-            font-size: large;
-        }
-
-        .header {
-            display: flex;
-            flex-direction: row;
-            min-height: 100px;
-            width: 100%;
-            background-color: aqua;
-            margin-top: 10px;
-        }
-
-        .content {
-            display: flex;
-            flex-direction: row;
-            min-height: 300px;
-            /* background-color: red; */
-            margin-top: 10px;
-            justify-content: space-between;
-          
-        }
-
-        .side_bar {
-            display: flex;
-            flex-direction: column;
-            background-color: darkblue;
-            flex-basis: 20%;
-            color: aliceblue;
-        }
-
-        .side_bar a {
-            text-decoration: none;
-            color: aliceblue;
-        }
-
-        .body_area {
-            display: flex;
-            flex-direction: column;
-            background-color: darkblue;
-            flex-basis: 75%;
-            color: aliceblue;
-        }
-
-        .footer {
-            display: flex;
-            flex-direction: row;
-            background-color: darkblue;
-            align-items: center;
-            justify-content: center;
-            margin-top: 10px;
-            min-height: 50px;
-            color: aliceblue;
-        }
-
-        body {
-
-            /* background-color: beige; */
-            background-image: url('website-html-code-browser-view-printed-white-paper-closeup-view.jpg');
-            background-repeat: no-repeat;
-            background-size: cover; 
-            background-position: center; 
-            background-attachment: fixed;
-
-        }
-
-        .content li {
-            margin-top: 5px;
-        }
-
-
-
-
-    </style>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-
-        <div class="logo">
-            <img src="uthm logo.png" alt="" width="300">
-        </div>
-
-        <div class="navigation">
-            <a href="">Home</a>
-            <a href="">Administration</a>
-            <a href="">Courses</a>
-            <a href="">Contact Us</a>
-        </div>
-
-        <!-- <div class="header">
-            <p>Header</p>
-        </div> -->
-
-        <div class="content">
-
-            <div class="side_bar">
-                Preferred Links:
-                <ul>
-                    <li><a href="https://ptta.uthm.edu.my" target="_blank">PTTA</a></li>
-                    <li><a href="https://fsktm.uthm.edu.my" target="_blank">FSKTM</a></li>
-                    <li><a href="https://amo.uthm.edu.my" target="_blank">PPA</a></li>
-                </ul>
-            </div>
-
-            <div class="body_area">
-                
-            </div>
-
-        </div>
-
-        <div class="footer">
-            DI230006_LAB3_2025
-        </div>
-   
-    </div>
-
-    
+  <header>
+    <h1>Welcome to My Personal Website</h1>
+    <nav>
+      <ul>
+        <li><a href="biodata.html">My Biodata</a></li>
+        <li><a href="hobbies.html">My Hobbies</a></li>
+        <li><a href="campuslife.html">My Campus Life</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <p>Explore my biodata, hobbies, and university life through the links above.</p>
+  </main>
 </body>
 </html>
