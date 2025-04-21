@@ -13,6 +13,18 @@
       background-color: #4c3a2b;
       color: white;
       padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 60px;
+      margin-right: 1rem;
+    }
+
+    .header-title {
+      flex-grow: 1;
       text-align: center;
     }
 
@@ -44,10 +56,12 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>My Campus Life</h1>
-    <a href="index.html">← Back to Home</a>
-  </header>
+    <header>
+        <img src="UTHM_Logo.png" alt="UTHM Logo">
+        <div class="header-title">
+          <h1>Welcome to My Personal Website</h1>
+        </div>
+      </header>
   <main>
     <p>Here are some great moments from my campus life:</p>
     <ul>
@@ -55,7 +69,9 @@
       <li>Went on class vacations</li>
       <li>Celebrated festivals and hangouts with friends</li>
     </ul>
-    <img src="uthm_campus.jpeg" alt="Campus Life" class="campus-img">
+    <center>
+        <img src="uthm_campus.jpeg" alt="Campus Life" class="campus-img">
+    </center>
   </main>
 </body>
 </html>

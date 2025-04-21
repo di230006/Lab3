@@ -15,6 +15,18 @@
       background-color: #4c3a2b;
       color: white;
       padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 60px;
+      margin-right: 1rem;
+    }
+
+    .header-title {
+      flex-grow: 1;
       text-align: center;
     }
 
@@ -47,7 +59,11 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to My Personal Website</h1>
+    <img src="UTHM_Logo.png" alt="UTHM Logo">
+    <div class="header-title">
+      <h1>Welcome to My Personal Website</h1>
+    </div>
+  </header>
     <nav>
       <ul>
         <li><a href="biodata.html">My Biodata</a></li>
@@ -57,7 +73,7 @@
     </nav>
   </header>
   <main>
-    <p>Explore my biodata, hobbies, and university life through the links above.</p>
+    <p>Explore my Biodata, Hobbies, and University life through the links above.</p>
   </main>
 </body>
 </html>
